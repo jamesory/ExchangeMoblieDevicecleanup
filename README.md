@@ -3,5 +3,5 @@ To operate this script you will need to create a Microsoft Enterprise Graph Appl
 
 You will want to make sure you update this section of the script if you want to change the number of days a device is stale before removing it.
 #This is the number of days you are setting to remove devices. The default I set is 90. This sets up to arrays, one with devices 90 days and over and one with devices 90 days and under.
-$SyncDevices90 = $Report | Where-Object {$_.DaysSinceLastSync -gt 90} 
-$SyncDevices90less = $Report | Where-Object {$_.DaysSinceLastSync -lt 90} 
+#$SyncDevices90 = $Report | Where-Object {$_.DaysSinceLastSync -gt 90} 
+#$SyncDevices90less = $Report | Where-Object {$_.DaysSinceLastSync -lt 90} 
