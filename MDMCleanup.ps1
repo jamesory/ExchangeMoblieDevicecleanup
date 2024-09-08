@@ -130,7 +130,7 @@ remove-MobileDevice -Identity $OldDevice[0].Id -Confirm:$False
 }
 
 #CUSTOM MESSAGE SUBJECT
-    $MessageSubject = "Quarles mobile device report $Today"
+    $MessageSubject = "XXX mobile device report $Today"
     
     
     
